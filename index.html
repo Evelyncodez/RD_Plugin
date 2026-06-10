@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RD Studio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+
+  <div class="section">
+    <div class="sec-label">Preset</div>
+    <select id="preset-sel">
+      <option value="mazes">Mazes</option>
+      <option value="fingerprints">Fingerprints</option>
+      <option value="spots">Spots</option>
+      <option value="coral">Coral</option>
+      <option value="waves">Waves</option>
+      <option value="worms">Worms</option>
+      <option value="turing">Turing patterns</option>
+      <option value="solitons">Pulsating solitons</option>
+      <option value="chaos">Chaos</option>
+      <option value="soft">Soft</option>
+      <option value="directional">Directional</option>
+      <option value="directional_s">Directional small</option>
+      <option value="spin">Spin</option>
+      <option value="custom">Custom</option>
+    </select>
+  </div>
+
+  <div class="section">
+    <div class="sec-label">Parameters</div>
+    <div class="row"><span class="lbl">Iterations</span><input type="range" id="sl-iter" min="1" max="30" step="1" value="6"><span class="val" id="v-iter">6</span></div>
+    <div class="row"><span class="lbl">Highpass</span><input type="range" id="sl-hp" min="1" max="20" step="1" value="6"><span class="val" id="v-hp">6</span></div>
+    <div class="row"><span class="lbl">Threshold</span><input type="range" id="sl-th" min="50" max="200" step="1" value="127"><span class="val" id="v-th">127</span></div>
+    <div class="row"><span class="lbl">Blur</span><input type="range" id="sl-bl" min="1" max="30" step="1" value="9"><span class="val" id="v-bl">9</span></div>
+    <div class="row"><span class="lbl">Motion</span><input type="range" id="sl-mo" min="0" max="100" step="1" value="0"><span class="val" id="v-mo">0px</span></div>
+    <div class="row"><span class="lbl">Angle</span><input type="range" id="sl-an" min="0" max="360" step="1" value="0"><span class="val" id="v-an">0°</span></div>
+  </div>
+
+  <div class="section">
+    <div class="sec-label">Color mode</div>
+    <div class="chips" id="color-chips">
+      <button class="chip on" data-cm="bw">B&amp;W</button>
+      <button class="chip" data-cm="keep">Keep colors</button>
+      <button class="chip" data-cm="tint">Tint</button>
+    </div>
+    <div class="row" id="op-row" style="display:none">
+      <span class="lbl">Opacity</span>
+      <input type="range" id="sl-op" min="10" max="100" step="5" value="100">
+      <span class="val" id="v-op">100%</span>
+    </div>
+  </div>
+
+  <div class="section" id="tint-section" style="display:none">
+    <div class="sec-label">Tint colors</div>
+    <div class="row">
+      <span class="lbl">Dark</span>
+      <input type="color" id="col-dark" value="#000000">
+      <span class="lbl" style="margin-left:10px">Light</span>
+      <input type="color" id="col-light" value="#e8832a">
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="sec-label">Options</div>
+    <div class="row">
+      <label class="check-row">
+        <input type="checkbox" id="chk-invert">
+        <span>Invert result</span>
+      </label>
+    </div>
+    <div class="chips" id="out-chips">
+      <button class="chip on" data-out="new">New layer</button>
+      <button class="chip" data-out="replace">Replace</button>
+    </div>
+  </div>
+
+  <div class="btn-group">
+    <button id="btn-apply">▶ Apply all</button>
+  </div>
+
+  <div class="section">
+    <div class="sec-label">Step by step</div>
+    <div class="step-row">
+      <button id="btn-step" class="btn-step">+ One step</button>
+      <button id="btn-reset-step" class="btn-small">↺ Reset</button>
+      <span id="step-ctr">steps: 0</span>
+    </div>
+    <div style="font-size:9px;color:#444;line-height:1.4">
+      Select original layer, press<br>
+      "+ One step" to grow gradually
+    </div>
+  </div>
+
+  <div id="status">Select a layer and press Apply</div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>

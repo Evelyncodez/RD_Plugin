@@ -1,12 +1,8 @@
-# RD_Plugin
-Reaction Diffusion Plugin for Photoshop
-
-
 # RD Studio — Photoshop Plugin
 
 A free Photoshop plugin that applies Reaction Diffusion patterns to text and images using native PS filters. Inspired by [Jason Webb's Reaction Diffusion Playground](https://jasonwebb.github.io/reaction-diffusion-playground/).
 
-![RD Studio Screenshot](RD_Plugin.png)
+![RD Studio Screenshot](screenshot.png)
 
 ---
 
@@ -94,4 +90,3 @@ Evelyn
 Free to use, share, modify. No warranty.
 
 If you make something cool with it, I'd love to see it.
-
