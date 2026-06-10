@@ -1,6 +1,6 @@
 # RD Studio — Photoshop Plugin
 
-A free Photoshop plugin that applies Reaction Diffusion patterns to text and images using native PS filters. Inspired by [Jason Webb's Reaction Diffusion Playground](https://jasonwebb.github.io/reaction-diffusion-playground/) & SoulburnReactionDiffusion Actions for Photoshop 
+A free Photoshop plugin that applies Reaction Diffusion patterns to text and images using native PS filters. Inspired by [Jason Webb's Reaction Diffusion Playground](https://jasonwebb.github.io/reaction-diffusion-playground/) & Soulburn Reaction Diffusion Actions by Neil Blevins
 
 ![RD Studio Screenshot](screenshot.png)
 
@@ -94,5 +94,10 @@ Evelyn (evelynsiegmund.com)
 Free to use, share, modify. No warranty.
 
 If you make something cool with it, I'd love to see it.
+
+## Credits & Inspiration
+
+- [Jason Webb's Reaction Diffusion Playground](https://jasonwebb.github.io/reaction-diffusion-playground/)
+- [Soulburn Reaction Diffusion in Photoshop by Neil Blevins](http://www.neilblevins.com/art_lessons/reaction_diffusion_in_pshop/reaction_diffusion_in_pshop.htm)
 
 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
