@@ -4,6 +4,10 @@ A free Photoshop plugin that applies Reaction Diffusion patterns to text and ima
 
 ![RD Studio Screenshot](screenshot.png)
 
+EXAMPLE
+<img width="1080" height="426" alt="example" src="https://github.com/user-attachments/assets/6e89dd31-be63-49c7-b665-cc350313c03e" />
+
+
 ---
 
 ## What it does
