@@ -100,4 +100,4 @@ If you make something cool with it, I'd love to see it.
 - [Jason Webb's Reaction Diffusion Playground](https://jasonwebb.github.io/reaction-diffusion-playground/)
 - [Soulburn Reaction Diffusion in Photoshop by Neil Blevins](http://www.neilblevins.com/art_lessons/reaction_diffusion_in_pshop/reaction_diffusion_in_pshop.htm)
 
-🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
